@@ -49,4 +49,4 @@ public class JwtUtil {
         }
     }
 }
-
+// Using io.jsonwebtoken (jjwt) approach — recommended patterns and key generation are described in Baeldung / Reflectoring. For production use prefer storing the signing key securely and consider asymmetric (RSA/ECDSA) keys.
